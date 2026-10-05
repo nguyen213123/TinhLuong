@@ -29,3 +29,4 @@ Khi thanh toán, ứng dụng khóa sản lượng và đợt, đồng thời xu
 - Chưa có bộ tự nâng cấp ứng dụng.
 - Excel chính là nguồn dữ liệu; không mở workbook chính bằng Excel trong lúc ứng dụng đang ghi dữ liệu.
 
+
