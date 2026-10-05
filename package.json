@@ -1,0 +1,37 @@
+{
+  "name": "quan-ly-luong-san-pham",
+  "version": "1.0.0",
+  "description": "Ứng dụng quản lý tiền công theo sản phẩm, lưu dữ liệu bằng Excel",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "test": "node --test",
+    "dist": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1",
+    "electron-builder": "^26.0.12",
+    "jsdom": "^30.1.2"
+  },
+  "build": {
+    "appId": "vn.tinhluong.desktop",
+    "productName": "Quản lý lương",
+    "win": {
+      "target": "portable"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ]
+  },
+  "allowScripts": {
+    "electron@44.5.1": true
+  }
+}
